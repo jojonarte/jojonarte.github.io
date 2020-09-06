@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link
+			href="https://fonts.googleapis.com/css?family=Montserrat|Quicksand"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="css/reset.css" type="text/css" />
+		<link rel="stylesheet" href="css/main.css" type="text/css" />
+		<link rel="stylesheet" href="css/animations.css" type="text/css" />
+		<title>Jojo Narte - Software Engineer</title>
+
+		<script defer type="text/javascript" src="js/main.js"></script>
+		<script
+			defer
+			src="https://use.fontawesome.com/releases/v5.0.0/js/all.js"
+		></script>
+	</head>
+
+	<body>
+		<div
+			id="wallpaper"
+			class="wallpaper"
+			data-image="images/wallpaper.jpg"
+		></div>
+		<div class="content">
+			<aside class="side">
+				<figure id="picture" class="picture">
+					<div class="picture-shadow"></div>
+					<img
+						id="pictureImage"
+						class="picture-image"
+						src="images/jojo.jpeg"
+						srcset="
+							images/jojo.jpeg    1x,
+							images/jojo@2x.jpeg 2x,
+							images/jojo@3x.jpeg 3x
+						"
+						alt="Portrait of Jojo Narte"
+						width="320"
+						height="320"
+					/>
+				</figure>
+			</aside>
+			<main class="about">
+				<h1 class="name">
+					Hi, I'm Jojo Narte
+				</h1>
+				<p class="job">
+					Apprentice Software Craftsman
+				</p>
+				<hr class="hr" />
+				<div class="description">
+					<p>
+						I spend most of my time honing my software craftsmanship and various
+						hobbies.
+					</p>
+				</div>
+				<div class="contact">
+					<a class="button" href="mailto:joselitonarte@gmail.com">
+						Get in touch
+					</a>
+				</div>
+				<ul class="social">
+					<li>
+						<a>
+							<i class="fab fa-twitter"></i>
+						</a>
+					</li>
+					<li>
+						<a>
+							<i class="fab fa-github"></i>
+						</a>
+					</li>
+					<li>
+						<a>
+							<i class="fab fa-linkedin"></i>
+						</a>
+					</li>
+				</ul>
+			</main>
+		</div>
+		<noscript>
+			<style type="text/css">
+				.wallpaper {
+					animation-name: zoomUp;
+				}
+				.picture {
+					animation-name: dropIn;
+				}
+			</style>
+		</noscript>
+	</body>
+</html>
