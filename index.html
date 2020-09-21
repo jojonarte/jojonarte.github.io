@@ -1,125 +1,615 @@
-<html>
-	<head>
-		<link
-			href="http://fonts.googleapis.com/css?family=Roboto:900,300,700,400|Raleway:700,400,300"
-			rel="stylesheet"
-			type="text/css"
-		/>
-		<link
-			href="http://necolas.github.io/normalize.css/3.0.2/normalize.css"
-			rel="stylesheet"
-		/>
-		<link
-			href="http://code.ionicframework.com/ionicons/1.5.2/css/ionicons.min.css"
-			rel="stylesheet"
-		/>
-		<link
-			rel="stylesheet"
-			href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css"
-		/>
-		<link href="stylesheets/animate.css" rel="stylesheet" type="text/css" />
-		<link href="stylesheets/stagger.css" rel="stylesheet" type="text/css" />
-		<link href="stylesheets/style.css" rel="stylesheet" type="text/css" />
-		<meta
-			name="viewport"
-			content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no"
-		/>
-	</head>
-	<body>
-		<!-- <h3 class="only-small">Show when it's small!</h3> -->
-		<div class="container">
-			<div class="col-md-12">
-				<div class="col-md-8">
-					<!-- Name -->
-					<h1 class="my-name animated fadeInDown _1">Joselito Narte</h1>
-					<h4 class="my-credentials animated fadeInUp _2">
-						BSIT, University of Cebu
-					</h4>
-				</div>
-				<div class="col-md-4">
-					<!-- Contact Info -->
-					<div class="contact animated fadeInDown _3">
-						<div class="phone-number">
-							<span class="icon ion-ios7-telephone"></span>
-							+ 63 9064765250
-						</div>
-						<div>
-							<span class="icon ion-ios7-email"></span>
-							<a class="email-address" href="mailto: joselitonarte@gmail.com">
-								joselitonarte@gmail.com
-							</a>
-						</div>
-					</div>
-				</div>
-				<!-- end of Contact Info col-md-4 -->
-			</div>
-			<!-- col-md-12 -->
-		</div>
-		<!-- container -->
 
-		<div class="container">
-			<!-- Contact Info -->
-			<div class="col-md-12">
-				<div class="col-md-8">
-					<!-- Credentials -->
-					<div class="resume-content animated fadeIn _4">
-						<h2 class="section-header">Education</h2>
-						<ul>
-							<li>
-								<strong>University of Cebu</strong>
-								<div class="only-big">
-									<div>
-										Bachelors of Science in Information Technology (4th year)
-									</div>
-								</div>
-							</li>
-						</ul>
-					</div>
-					<!-- End of Credentials -->
-					<div class="animated fadeIn _6">
-						<h2 class="section-header">Work Experience</h2>
-						<ul>
-							<li>
-								<strong>Lanex</strong>
-								<div>Software Engineer</div>
-							</li>
-							<li>
-								<strong>VANANAZ Systems Inc</strong>
-								<div>Software Engineer</div>
-							</li>
-							<li>
-								<strong>DNA Micro Software, Inc</strong>
-								<div>Software Engineer</div>
-							</li>
-						</ul>
-					</div>
-					<!-- Work Experience Div -->
-				</div>
-				<!-- col-md-8 -->
-				<!-- Skills Column -->
-				<div class="col-md-4 animated fadeIn _5">
-					<h2 class="section-header">Skills</h2>
-					<ul>
-						<li>React Native</li>
-						<li>React.js</li>
-						<li>Node.js</li>
-						<li>Javascript</li>
-						<li>Java</li>
-						<li>Android (Java)</li>
-						<li>iOS(Swift, Objective C)</li>
-					</ul>
-				</div>
-				<!-- End of Skills -->
-			</div>
-			<!-- End of Resume Content -->
-			<div class="col-md-12">
-				<p class="text-muted footer animated fadeInUp _6">
-					Copyright &copy; Joselito Narte 2020
-				</p>
-			</div>
-		</div>
-		<!-- End of Container -->
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-	</body>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no,minimal-ui" />
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="keywords" content="Gideon, Rosales" />
+        <meta name="description" content="Software Engineer at Lanex" />
+
+        <!--favicon图标-->
+        <link rel="icon" href="images/favicon.png" type="image/x-icon" />
+        <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
+
+        <!--ios设备添加到主屏幕的图标-->
+        <link rel="apple-touch-icon-precomposed" href="images/avatar1.png">
+
+        <!--loading css-->
+        <link href="css/pace-theme-flash.css" rel="stylesheet" type="text/css">
+
+        <!--全局定义css-->
+        <link href="css/style.css" rel="stylesheet">
+
+        <!--自适应css-->
+        <link href="css/responsive.css" rel="stylesheet">
+
+        <!--字体图标cdd-->
+        <link href="css/font.css" rel="stylesheet" type="text/css">
+
+        <link rel="stylesheet" href="css/et-style.css" />
+
+        <title>Gideon Rosales</title>
+    </head>
+    <body>
+
+        <div class="main">
+            <div class="content">
+
+                <!--header-->
+                <div class="header clearfix">
+                    <div class="avatar">
+                        <a href="javascript:;" class="avatar_pic circle"><em class="circle doing">Ola!</em></a>
+                        <b class="doing r5">&nbsp;JN&nbsp;</b>
+                    </div>
+                    <div class="base">
+                        <p class="desc">Hello I'm</p>
+                        <h2>Joselito Narte</h2>
+                        <p>SOFTWARE ENGINEER</p>
+                        <p>Lanex Corporation</p>
+                        <span>
+                            <p><i aria-hidden="true" data-icon="&#xe047;"></i>Cebu Philippines</p>
+                        </span>
+                    </div>
+                </div>
+
+                <!--information-->
+                <div class="information clearfix">
+
+                    <!--left-->
+                    <div class="info_area info_left info_content">
+
+                        <h5>Summary</h5>
+                        <p class="desc"><br/><br/>
+                        <b>An apprentice taking the long road to master software craftsmanship</b><br/><br/>
+												<br><br>
+                        <h5>Projects</h5>
+                        <ul>
+                            <li class="clearfix">
+                                <div class="con">
+                                    <h3><i aria-hidden="true" data-icon="&#xe023;"></i>YourStand EV<em>(ReactNative, React.JS, Firestore)</em></h3>
+                                    <p>An electric car charger and parking reservation service for Japan.</p>
+                                </div>
+                            </li>
+                            <li class="clearfix">
+                                <div class="con">
+                                    <h3><i aria-hidden="true" data-icon="&#xe023;"></i>CryptalDash Trading Dashboard v2<em>(React.JS)</h3>
+                                    <p>Developed and built the FrontEnd for the new Trading dashboard.</p>
+                                </div>
+                            </li>
+                            <li class="clearfix">
+                                <div class="con">
+                                    <h3><i aria-hidden="true" data-icon="&#xe023;"></i>Meetyx Meet<em>(React.JS)</h3>
+                                    <p>Developed a whitelabel implementation of Jitsi-meet front-end and mobile app</p>
+                                </div>
+                            </li>
+                            <li class="clearfix">
+                                <div class="con">
+                                    <h3><i aria-hidden="true" data-icon="&#xe023;"></i>CarpetPro<em>(Android, Node.js, RethinkDB)</h3>
+                                    <p>Admin dashboard and Android app for carpet installers to track down the installation</p>
+                                </div>
+                            </li>
+                            <li class="clearfix">
+                                <div class="con">
+                                    <h3><i aria-hidden="true" data-icon="&#xe023;"></i>LJP<em>(IOS, ReactJS, Node.js, RealmDB)</h3>
+                                    <p>Helped in developing the Admin dashboard and Ipad app for LJP QA</p>
+                                </div>
+                            </li>
+                            <li class="clearfix">
+                                <div class="con">
+                                    <h3><i aria-hidden="true" data-icon="&#xe023;"></i>AsherFabricConcepts App<em>(IOS, Node.js, RealmDB)</h3>
+                                    <p>Helped in developing the Ipad app for Asher Fabric Concepts</p>
+                                </div>
+                            </li>
+                        </ul>
+
+                    </div>
+
+                    <!--right-->
+                    <div class="info_area info_right info_timeline">
+                        <h5><i aria-hidden="true" data-icon="&#xe00a;"></i>Timeline</h5>
+                        <ul>
+                             <li class="clearfix top" id="s6">
+                                <!--list样式-->
+                                <div class="dot"><b></b></div>
+                                <!--内容-->
+                                <div class="con">
+                                    <h3>Lanex Corporation</h3>
+                                    <p>Software Engineer</p>
+                                    <p class="desc">Sept 2020 - Present</p>
+                                </div>
+                            </li>
+                            <li class="clearfix" id="s5">
+                                <!--list样式-->
+                                <div class="dot"><b></b></div>
+                                <!--内容-->
+                                <div class="con">
+                                    <h3>VANANAZ SYSTEMS, Inc.</h3>
+                                    <p>Software Engineer</p>
+                                    <p class="desc">June 2018 - Sept 2020</p>
+                                </div>
+                            </li>
+                            <li class="clearfix" id="s4">
+                                <!--list样式-->
+                                <div class="dot"><b></b></div>
+                                <!--内容-->
+                                <div class="con">
+                                    <h3>DNA MICRO Software,</h3>
+                                    <p>Software Engineer</p>
+                                    <p class="desc">Dec 2015 - June 2018</p>
+                                </div>
+                            </li>
+                        </ul>
+
+                        <h5>SKILLSETS</h5>
+
+                        <dl class="clearfix">
+                            <dt><h6><i aria-hidden="true" data-icon="&#xe002;"></i>Frontend WEB<h6></dt>
+                            <dd></dd>
+                        </dl>
+                        <dl class="clearfix">
+                            <dt>ReactNative</dt>
+                            <dd>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <em></em>
+                            </dd>
+                        </dl>
+                        <dl class="clearfix">
+                            <dt>React.js ( Redux | Alt )</dt>
+                            <dd>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <em></em>
+                            </dd>
+                        </dl>
+                        
+                        <dl class="clearfix">
+                            <dt>Node.js</dt>
+                            <dd>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <em></em>
+                                <em></em>
+                            </dd>
+                        </dl>
+                        <dl class="clearfix">
+                            <dt>Vanilla JS</dt>
+                            <dd>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <em></em>
+                                <em></em>
+                                <em></em>
+                                <em></em>
+                            </dd>
+                        </dl>
+
+                        <dl class="clearfix mt20">
+                            <dt><h6><i aria-hidden="true" data-icon="&#xe001;"></i>Server Scripting<h6></dt>
+                            <dd></dd>
+                        </dl>
+                        <dl class="clearfix">
+                            <dt>Node.js</dt>
+                            <dd>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <em></em>
+                            </dd>
+                        </dl><dl class="clearfix">
+                            
+                        </dl>
+                        <dl class="clearfix mt20">
+                            <dt><h6><i aria-hidden="true" data-icon="&#xe031;"></i>Databases<h6></dt>
+                            <dd></dd>
+                        </dl>
+                        <dl class="clearfix">
+                            <dt>Firestore</dt>
+                            <dd>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <em></em>
+                                <em></em>
+                            </dd>
+                        </dl>
+                        <dl class="clearfix">
+                            <dt>Postgres</dt>
+                            <dd>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <em></em>
+                                <em></em>
+                                <em></em>
+                                <em></em>
+                            </dd>
+                        </dl>
+                        <dl class="clearfix">
+                            <dt>Redis</dt>
+                            <dd>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <em></em>
+                                <em></em>
+                                <em></em>
+                                <em></em>
+                                <em></em>
+                            </dd>
+                        </dl>
+                        <dl class="clearfix">
+                            <dt>MongoDB</dt>
+                            <dd>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <em></em>
+                                <em></em>
+                                <em></em>
+                                <em></em>
+                                <em></em>
+                            </dd>
+                        </dl>
+                        <dl class="clearfix">
+                            <dt>RethinkDB</dt>
+                            <dd>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <em></em>
+                                <em></em>
+                                <em></em>
+                                <em></em>
+                                <em></em>
+                                <em></em>
+                                <em></em>
+                            </dd>
+                        </dl>
+
+                        <dl class="clearfix mt20">
+                            <dt><h6><i aria-hidden="true" data-icon="&#xe002;"></i>AWS services<h6></dt>
+                            <dd></dd>
+                        </dl>
+                        <dl class="clearfix">
+                            <dt>EC2</dt>
+                            <dd>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <em></em>
+                                <em></em>
+                                <em></em>
+                                <em></em>
+                            </dd>
+                        </dl>
+                        
+                        <dl class="clearfix">
+                            <dt>AWS Api gateway</dt>
+                            <dd>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <em></em>
+                                <em></em>
+                                <em></em>
+                                <em></em>
+                                <em></em>
+                                <em></em>
+                                <em></em>
+                            </dd>
+                        </dl>
+
+                        
+                        <dl class="clearfix mt20">
+                            <dt><h6><i aria-hidden="true" data-icon="&#xe00c;"></i>DevOps<h6></dt>
+                            <dd></dd>
+                        </dl>
+                        <dl class="clearfix">
+                            <dt>Docker</dt>
+                            <dd>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <em></em>
+                                <em></em>
+                                <em></em>
+                                <em></em>
+                                <em></em>
+                                <em></em>
+                                <em></em>
+                                <em></em>
+                            </dd>
+                        </dl>
+                        <dl class="clearfix">
+                            <dt>Nginx</dt>
+                            <dd>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <em></em>
+                                <em></em>
+                                <em></em>
+                                <em></em>
+                                <em></em>
+                                <em></em>
+                            </dd>
+                        </dl>
+                        
+                        <dl class="clearfix mt20">
+                            <dt><h6><i aria-hidden="true" data-icon="&#xe039;"></i>Version Control<h6></dt>
+                            <dd></dd>
+                        </dl>
+                        <dl class="clearfix">
+                            <dt>GIT</dt>
+                            <dd>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <em></em>
+                            </dd>
+                        </dl>
+
+                        <dl class="clearfix mt20">
+                            <dt><h6><i aria-hidden="true" data-icon="&#xe03e;"></i>CI/CD<h6></dt>
+                            <dd></dd>
+                        </dl>
+                        <dl class="clearfix">
+                            <dt>CircleCI</dt>
+                            <dd>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <em></em>
+                            </dd>
+                        </dl>
+                        <dl class="clearfix">
+                            <dt>Travis</dt>
+                            <dd>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <em></em>
+                            </dd>
+                        </dl>
+                        
+                        <dl class="clearfix">
+                            <dt>BitriseCI</dt>
+                            <dd>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <em></em>
+                                <em></em>
+                            </dd>
+                        </dl>
+
+                        <dl class="clearfix mt20">
+                            <dt><h6><i aria-hidden="true" data-icon="&#xe01d;"></i>Testing<h6></dt>
+                            <dd></dd>
+                        </dl>
+                        <dl class="clearfix">
+                            <dt>Unit Testing</dt>
+                            <dd>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <em></em>
+                            </dd>
+                        </dl>
+                        <dl class="clearfix">
+                            <dt>Integtration Test</dt>
+                            <dd>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <em></em>
+                                <em></em>
+                                <em></em>
+                                <em></em>
+                                <em></em>
+                                <em></em>
+                            </dd>
+                        </dl>
+                        <dl class="clearfix">
+                            <dt>E2E Test</dt>
+                            <dd>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <em></em>
+                                <em></em>
+                                <em></em>
+                                <em></em>
+                                <em></em>
+                                <em></em>
+                                <em></em>
+                                <em></em>
+                                <em></em>
+                            </dd>
+                        </dl>
+                        
+                        <dl class="clearfix">
+                            <dt>Lint</dt>
+                            <dd>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <em></em>
+                            </dd>
+                        </dl>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <!--Jquery 2.1 不支持ie6、7、8-->
+        <script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
+
+        <!--jquery 局部打印-->
+        <!-- <script type="text/javascript" src="js/jQuery.print.js"></script> -->
+
+        <!--jquery 动画-->
+        <script type="text/javascript" src="js/jquery.transit.min.js"></script>
+
+        <!--jquery 轮播-基于bootstrap carousel-->
+        <script type="text/javascript" src="js/carousel.min.js"></script>
+
+        <!--jquery annyang sound control-->
+        <!-- <script type="text/javascript" src="js/annyang.min.js"></script> -->
+
+        <!--jquery loadding-->
+        <!-- <script type="text/javascript" src="js/pace.min.js"></script> -->
+
+        <!--effect-->
+        <script type="text/javascript" src="js/common.js"></script>
+
+    </body>
 </html>
