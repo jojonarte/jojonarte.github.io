@@ -1,97 +1,92 @@
-<!DOCTYPE html>
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<link
-			href="https://fonts.googleapis.com/css?family=Montserrat|Quicksand"
-			rel="stylesheet"
-		/>
-		<!-- <link rel="stylesheet" href="css/reset.css" type="text/css" />
-		<link rel="stylesheet" href="css/main.css" type="text/css" />
-		<link rel="stylesheet" href="css/animations.css" type="text/css" /> -->
-		<title>Jojo Narte - Software Engineer</title>
+<html>
+  <head>
+    <link href='http://fonts.googleapis.com/css?family=Roboto:900,300,700,400|Raleway:700,400,300' rel='stylesheet' type='text/css'>
+    <link href='http://necolas.github.io/normalize.css/3.0.2/normalize.css' rel="stylesheet">
+    <link href='http://code.ionicframework.com/ionicons/1.5.2/css/ionicons.min.css' rel="stylesheet">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link href='stylesheets/animate.css' rel='stylesheet' type='text/css'>
+    <link href='stylesheets/stagger.css' rel='stylesheet' type='text/css'>
+    <link href='stylesheets/style.css' rel='stylesheet' type='text/css'>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+  </head>
+  <body>
+    <!-- <h3 class="only-small">Show when it's small!</h3> -->
+    <div class="container">
+      <div class="col-md-12">
+        <div class="col-md-8"><!-- Name -->
+          <h1 class="my-name animated fadeInDown _1">Gideon Rosales</h1>
+          <h4 class="my-credentials animated fadeInUp _2">BSCoE, Mapua Institute of Technology</h4>
+        </div>
+        <div class="col-md-4"><!-- Contact Info -->
+          <div class="contact animated fadeInDown _3">
+            <div class="phone-number">
+              <span class="icon ion-ios7-telephone"></span>
+              + 63 998 9720276
+            </div>
+            <div>
+              <span class="icon ion-ios7-email"></span>
+              <a class="email-address" href="mailto: gideonrosales@gmail.com">
+              gideonrosales@gmail.com
+              </a>
+            </div>
+          </div>
+        </div><!-- end of Contact Info col-md-4 -->
+      </div><!-- col-md-12 -->
+    </div><!-- container -->
 
-		<script defer type="text/javascript" src="js/main.js"></script>
-		<script
-			defer
-			src="https://use.fontawesome.com/releases/v5.0.0/js/all.js"
-		></script>
-	</head>
-
-	<body>
-		<div
-			id="wallpaper"
-			class="wallpaper"
-			data-image="images/wallpaper.jpg"
-		></div>
-		<div class="content">
-			<aside class="side">
-				<figure id="picture" class="picture">
-					<div class="picture-shadow"></div>
-					<img
-						id="pictureImage"
-						class="picture-image"
-						src="images/jojo.jpg"
-						srcset="
-							images/jojo.jpg    1x,
-							images/jojo@2x.jpg 2x,
-							images/jojo@3x.jpg 3x
-						"
-						alt="Portrait of Jojo Narte"
-						width="320"
-						height="320"
-					/>
-				</figure>
-			</aside>
-			<main class="about">
-				<h1 class="name">
-					Hi, I'm <a href="./resume/index.html">Jojo Narte</a>
-				</h1>
-				<p class="job">
-					Apprentice Software Craftsman
-				</p>
-				<hr class="hr" />
-				<div class="description">
-					<p>
-						I spend most of my time honing my software craftsmanship and various
-						hobbies.
-					</p>
-				</div>
-				<div class="contact">
-					<a class="button" href="mailto:joselitonarte@gmail.com">
-						Get in touch
-					</a>
-				</div>
-				<ul class="social">
-					<li>
-						<a href="https://twitter.com/jojonarte" target="blank">
-							<i class="fab fa-twitter"></i>
-						</a>
-					</li>
-					<li>
-						<a href="https://github.com/jojonarte" target="blank">
-							<i class="fab fa-github"></i>
-						</a>
-					</li>
-					<li>
-						<a href="https://www.linkedin.com/in/jojo-narte/" target="blank">
-							<i class="fab fa-linkedin"></i>
-						</a>
-					</li>
-				</ul>
-			</main>
-		</div>
-		<noscript>
-			<style type="text/css">
-				.wallpaper {
-					animation-name: zoomUp;
-				}
-				.picture {
-					animation-name: dropIn;
-				}
-			</style>
-		</noscript>
-	</body>
+    <div class="container"><!-- Contact Info -->
+      <div class="col-md-12">
+        <div class="col-md-8">
+          <!-- Credentials -->
+          <div class="resume-content animated fadeIn _4">
+            <h2 class="section-header">Education</h2>
+            <ul>
+              <li>
+                <strong>Mapua Institute of Technology</strong>
+                <div class="only-big">
+                  <div>Bachelors of Science in Computer Engineering</div>
+                </div>
+              </li>
+            </ul>
+          </div><!-- End of Credentials -->
+          <div class="animated fadeIn _6">
+            <h2 class="section-header">Work Experience</h2>
+            <ul>
+              <li>
+                <strong>Lanex</strong>
+                <div>Software Engineer</div>
+              </li>
+              <li>
+                <strong>Global Zeal</strong>
+                <div>Software Engineer</div>
+              </li>
+              <li>
+                <strong>NextIX</strong>
+                <div>Software Engineer</div>
+              </li>
+            </ul>
+          </div><!-- Work Experience Div -->
+        </div><!-- col-md-8 -->
+        <!-- Skills Column -->
+        <div class="col-md-4 animated fadeIn _5">
+          <h2 class="section-header">Skills</h2>
+          <ul>
+            <li>Node.js</li>
+            <li>React.js( Redux or Alt )</li>
+            <li>Marionette.js</li>
+            <li>Backbone.js</li>
+            <li>PHP</li>
+            <li>Javascript</li>
+            <li>Ansible</li>
+            <li>etc...</li>
+          </ul>
+        </div><!-- End of Skills -->
+      </div><!-- End of Resume Content -->
+      <div class="col-md-12">
+        <p class="text-muted footer animated fadeInUp _6">Copyright &copy; Gideon Rosales 2015</p>
+      </div>
+    </div><!-- End of Container -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+  </body>
 </html>
